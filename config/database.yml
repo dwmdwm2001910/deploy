@@ -79,7 +79,9 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: deploy_production
-  username: deploy
-  password: <%= ENV['DEPLOY_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  pool: 25
+  database: necklace_new_development
+  host: localhost
+  username: dwmdwm
+  password: dwm123

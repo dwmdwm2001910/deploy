@@ -8,6 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 
+server '140.82.8.87', user: 'dwmdwm', roles: %w{app db web}, my_property: :my_value
 
 # role-based syntax
 # ==================
